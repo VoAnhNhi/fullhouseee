@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>FullHouse - Admin Dashboard </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="icon" type="image/png" href="./image/FH.png">
+    <script src="https://kit.fontawesome.com/f83e86b7d7.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link href="./css/admin.css" rel="stylesheet"></head>
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>    <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Tìm kiếm">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            
+                            <a href="javascript:void(0);" class="nav-link"><i class="fas fa-chart-bar" style="margin-right: 5px;padding-top: 2px;"></i> 
+                                Thống kê
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                Dự án
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="javascript:void(0);" class="nav-link"><i class="fas fa-cog"  style="margin-right: 5px;padding-top: 2px;"></i>
+                                Cài đặt
+                            </a>
+                        </li>
+                    </ul>        </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                       
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Manager
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        </div>
+            </div>
+        </div>               <div class="app-main">
+                <div class="app-sidebar sidebar-shadow">
+                    <div class="app-header__logo">
+                        <div class="logo-src"></div>
+                        <div class="header__pane ml-auto">
+                            <div>
+                                <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-header__mobile-menu">
+                        <div>
+                            <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="app-header__menu">
+                        <span>
+                            <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                <span class="btn-icon-wrapper">
+                                    <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                </span>
+                            </button>
+                        </span>
+                    </div>    <div class="scrollbar-sidebar">
+                        <div class="app-sidebar__inner">
+                            <ul class="vertical-nav-menu">
+                                <li class="app-sidebar__heading">Bảng điều khiển</li>
+                                <li>
+                                    <a href="http://fullhouseee.herokuapp.com/dashboard" class="mm-active">
+                                        <i class="fas fa-database"></i>
+                                        Dashboard
+                                    </a>
+                                </li>
+                                <li class="app-sidebar__heading">Đơn hàng</li>
+                                <li>
+                                    <a href="http://fullhouseee.herokuapp.com/ofDay" class="mm-active">
+                                        <i class="fa fa-list-alt" aria-hidden="true"></i> 
+                                        Theo ngày
+                                    </a>
+                                </li><br>
+                                <li class="app-sidebar__heading">Biểu đồ</li>
+                                <li>
+                                    <a href="http://fullhouseee.herokuapp.com/chartAll" class="mm-active">
+                                        <i class="fa fa-list-alt" aria-hidden="true"></i> 
+                                        Theo tháng
+                                    </a>
+                                </li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    <div class="app-main__outer">
+                    <div class="app-main__inner">
+                        <div class="app-page-title">
+                            <div class="page-title-wrapper">
+                                <div class="page-title-heading">
+                                    <div>Bảng thống kê</div>
+                                </div>
+                            </div>
+                        </div>            
+                      
+                       <div class="row">
+                        <form action="http://fullhouseee.herokuapp.com/chartOfMonth" method="get">
+                            <div class="col-md-6 col-xl-4">
+                                <select name="year">
+                                    <%for(var i = 2020; i<= 2025;i++){%>
+                                    <option ><%=i%></option>
+                                    <%};%>
+                                </select>
+                                <input type="submit" value="Tìm">
+                            </div>
+                           
+                        </form>
+                   </div><br>
+                       <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-card mb-3 card">
+                                <div class="card-header">Thống kê theo tháng
+                                    <div class="btn-actions-pane-right">
+                                        <div role="group" class="btn-group-sm btn-group">
+                                            <div class="search-wrapper">
+                                                <div class="input-holder">
+                                                    <input type="text" class="search-input" id="searchByName" placeholder="Tìm kiếm theo tên">
+                                                    <button class="search-icon" ><span></span></button>
+                                                </div>
+                                                <button class="close"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th class="text-center">Tháng</th>
+                                            <th class="text-center">Số đơn hàng</th>
+                                            <th class="text-center">Doanh thu</th>
+                                            
+
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                           <%for(var i = 0; i< list1.length;i++){%>
+                                            <%for(var i = 0; i< list2.length;i++){%>
+                                                <%for(var i = 0; i< list3.length;i++){%>
+                                            <td class="text-center" id="month<%=i%>">
+                                                <%=list3[i]%>
+                                            </td>
+                                            <td class="text-center" id="count<%=i%>">
+                                               <%=list1[i]%>
+                                            </td>
+                                            <td class="text-center" >
+                                                 <span id="total<%=i%>"> <%=list2[i]%> </span>VNĐ
+                                            </td> 
+                                        </tr>
+                                        <%};%>
+                                        <%};%>
+                                        <%};%>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       </div>
+                       <canvas id="myChart" width="800" height="450" style="align-items: center;text-align: center;margin: auto;"></canvas>
+                      
+                    </div>
+        </div>
+    </div>
+<script type="text/javascript" src="./js/admin.js"></script>
+<script>
+        
+        var total0 = document.getElementById('total0').innerHTML;
+        var total1 = document.getElementById('total1').innerHTML;
+        var total2 = document.getElementById('total2').innerHTML;
+        var total3 = document.getElementById('total3').innerHTML;
+        var total4 = document.getElementById('total4').innerHTML;
+        var total5 = document.getElementById('total5').innerHTML;
+        var total6 = document.getElementById('total6').innerHTML;
+        var total7 = document.getElementById('total7').innerHTML;
+        var total8 = document.getElementById('total8').innerHTML;
+        var total9 = document.getElementById('total9').innerHTML;
+        var total10 = document.getElementById('total10').innerHTML;
+        var total11 = document.getElementById('total11').innerHTML;
+        
+        
+       
+        //total0,total1,total2,total3,total4,total5,total6,total7,total8,total9,total10,total11
+        var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Tháng 1","Tháng 2","Tháng 3","Tháng 4","Tháng 5","Tháng 6","Tháng 7","Tháng 8","Tháng 9","Tháng 10","Tháng 11","Tháng 12"],
+        datasets: [{
+            label: 'Doanh thu tháng',
+            data: [total0,total1,total2,total3,total4,total5,total6,total7,total8,total9,total10,total11],
+            backgroundColor: [
+                '#1abc9c',
+                '#3498db',
+                '#9b59b6',
+                '#1abc9c',
+                '#3498db',
+                '#9b59b6',
+                '#1abc9c',
+                '#3498db',
+                '#9b59b6',
+                '#1abc9c',
+                '#3498db',
+                '#9b59b6'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        title: {
+        display: true,
+        text: 'Biểu đồ doanh thu theo từng tháng'
+      },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+</body>
+</html>

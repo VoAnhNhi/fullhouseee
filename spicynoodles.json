@@ -1,0 +1,5 @@
+[
+    {"name":"Mỳ cay 1","price":32000,"image":"./image/food1.jpg","number":10},
+    {"name":"Mỳ cay 2","price":33000,"image":"./image/food2.jpg","number":11},
+    {"name":"Mỳ cay 3","price":34000,"image":"./image/food3.jpg","number":12}
+]

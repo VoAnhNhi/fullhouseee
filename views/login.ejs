@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title><%=title%></title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./image/FH.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="./css/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href=".css/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/utilLogin.css">
+	<link rel="stylesheet" type="text/css" href="./css/mainLogin.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" action="http://fullhouseee.herokuapp.com/dashboard" method="POST">
+					<span class="login100-form-title p-b-26">
+						Admin Login
+					</span>
+					
+
+					<div class="wrap-input100 validate-input" data-validate = "Vui lòng điền vào trường này">
+						<input class="input100" type="text" name="name">
+						<span class="focus-input100" data-placeholder="Tên đăng nhập"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Vui lòng điền vào trường này">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100" data-placeholder="Mật khẩu"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" type="submit">
+								Đăng nhập
+							</button>
+						</div>
+                    </div>
+                    <span class="alert" style="font-size: 14px;color:red;padding-top: 5px;text-align: center;" ><i><%=alert%></i></span>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="./js/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="./js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="./js/popper.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="./js/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="./js/moment.min.js"></script>
+	<script src="./js/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="./js/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="./js/mainLogin.js"></script>
+
+</body>
+</html>

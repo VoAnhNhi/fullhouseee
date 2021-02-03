@@ -1,0 +1,15 @@
+[
+    {"name":"Trà sữa 1","price":17000,"image":"./image/tea9.jpg","number":1},
+    {"name":"Trà sữa 2","price":18000,"image":"./image/tea2.jpg","number":2},
+    {"name":"Trà sữa 3","price":19000,"image":"./image/tea3.jpg","number":3},
+    {"name":"Trà sữa 4","price":20000,"image":"./image/tea4.jpg","number":4},
+    {"name":"Trà sữa 5","price":21000,"image":"./image/tea5.jpg","number":5},
+    {"name":"Trà sữa 6","price":22000,"image":"./image/tea6.jpg","number":6},
+    {"name":"Trà sữa 7","price":24000,"image":"./image/tea8.jpg","number":7},
+    {"name":"Trà sữa 8","price":26000,"image":"./image/tea11.jpg","number":8},
+    {"name":"Trà sữa 9","price":28000,"image":"./image/tea10.jpg","number":9},
+    {"name":"Mỳ cay 1","price":32000,"image":"./image/food1.jpg","number":10},
+    {"name":"Mỳ cay 2","price":33000,"image":"./image/food2.jpg","number":11},
+    {"name":"Mỳ cay 3","price":34000,"image":"./image/food3.jpg","number":12}
+    
+]

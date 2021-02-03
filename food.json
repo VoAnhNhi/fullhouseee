@@ -1,0 +1,9 @@
+[
+    {"name":"Món ăn 1","price":17000,"image":"./image/food8.jpg","number":1},
+    {"name":"Món ăn 2","price":18000,"image":"./image/food10.jpg","number":2},
+    {"name":"Món ăn 3","price":19000,"image":"./image/food11.jpg","number":3},
+    {"name":"Món ăn 4","price":20000,"image":"./image/food12.jpg","number":4},
+    {"name":"Món ăn 5","price":21000,"image":"./image/food13.jpg","number":5},
+    {"name":"Món ăn 6","price":22000,"image":"./image/food14.jpg","number":6},
+    {"name":"Món ăn 7","price":22000,"image":"./image/food14.jpg","number":7}
+]

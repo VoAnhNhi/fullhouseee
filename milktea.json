@@ -1,0 +1,11 @@
+[
+    {"name":"Trà sữa 1","price":17000,"image":"./image/tea15.jpg","number":1},
+    {"name":"Trà sữa 2","price":18000,"image":"./image/tea2.jpg","number":2},
+    {"name":"Trà sữa 3","price":19000,"image":"./image/tea3.jpg","number":3},
+    {"name":"Trà sữa 4","price":20000,"image":"./image/tea4.jpg","number":4},
+    {"name":"Trà sữa 5","price":21000,"image":"./image/tea5.jpg","number":5},
+    {"name":"Trà sữa 6","price":22000,"image":"./image/tea6.jpg","number":6},
+    {"name":"Trà sữa 7","price":24000,"image":"./image/tea7.jpg","number":7},
+    {"name":"Trà sữa 8","price":26000,"image":"./image/tea18.jpg","number":8},
+    {"name":"Trà sữa 9","price":28000,"image":"./image/tea19.jpg","number":9}
+]
